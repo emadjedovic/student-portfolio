@@ -8,12 +8,12 @@ h4 {
   margin: 3rem;
 }
 #about_me_menu {
-  background-color: rgb(30, 30, 30);
-  width: 20rem;
-  height: 15rem;
-  padding-top: 1.5rem;
+  background-color: rgb(25, 25, 25);
+  width: 19rem;
+  height: 17rem;
+  padding-top: 1rem;
   padding-right: 1rem;
-  margin-top: 2rem;
+  margin-top: 7rem;
   margin-right: 0;
   float: right;
   right: 0;
@@ -59,6 +59,13 @@ h4 {
     margin: 2rem;
     padding: 2rem;
     max-width: 75%;
+}
+#volunteering {
+  display: flex;
+  flex-flow: column wrap;
+  margin: 2rem;
+  padding: 2rem;
+  max-width: 75%;
 }
 
 @media only screen and (max-width: 900px){
