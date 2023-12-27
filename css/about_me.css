@@ -10,8 +10,8 @@ h4 {
 #about_me_menu {
   background-color: rgb(25, 25, 25);
   width: 19rem;
-  height: 17rem;
-  padding-top: 1rem;
+  height: 19rem;
+  padding-top: 2rem;
   padding-right: 1rem;
   margin-top: 7rem;
   margin-right: 0;
@@ -29,7 +29,6 @@ h4 {
   padding-left: 0;
   color: lightgray;
   font-size: large;
-  list-style-type: none;
 }
 #about_me_menu a {
   text-decoration: none;
