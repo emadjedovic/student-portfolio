@@ -60,7 +60,7 @@ main h4 {
 }
 #pdf_link img {
   width: 3rem;
-  margin-top: 0;
+  margin-top: 4rem;
 }
 #pdf_link:hover{
   color: white;
@@ -89,7 +89,7 @@ ol li {
   height: 19rem;
   padding-top: 2rem;
   padding-right: 1rem;
-  margin-top: 3rem;
+  margin-top: 6rem;
   margin-right: 0;
   float: right;
   right: 0;
@@ -111,6 +111,11 @@ ol li {
 #works_menu a:hover {
   text-decoration: none;
   color: white;
+}
+#works_menu span {
+  font-style: italic;
+  float: right;
+  text-align: center;
 }
 
 @media only screen and (max-width: 900px){
