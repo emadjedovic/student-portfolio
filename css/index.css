@@ -1,0 +1,286 @@
+.header {
+  background-image: linear-gradient(to top, black, rgb(50, 50, 50));
+  color: lightgray;
+  padding: 2%;
+  padding-bottom: 0%;
+}
+
+.nav {
+  display: flexbox;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-items: flex-end;
+
+}
+
+.nav a {
+  color: lightgray;
+  text-decoration: none;
+  font-size: large;
+  padding: 1rem;
+  margin: 1rem;
+}
+
+.nav a:hover, a:active {
+  color: white;
+  text-decoration: none;
+}
+
+.nav input {
+  height: 3rem;
+  margin-left: 3rem;
+  padding: 1rem;
+  margin: 1rem;
+  background-color: rgb(255, 255, 255);
+}
+
+.footer {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: center;
+
+  position: static;
+  bottom: 0;
+  padding: 3%;
+  width: 100%;
+  background-image: linear-gradient(to top, black, rgb(50, 50, 50));
+  color: lightgray;
+}
+
+#copy {
+  padding-right: 10%;
+}
+
+#socials {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+}
+
+#socials a {
+  text-decoration: none;
+  color: lightgray;
+  transition: .1s all ease-in;
+  padding: 1rem;
+}
+
+#socials a:hover {
+  color: white;
+}
+
+#btt {
+  text-decoration: none;
+  color: lightgray;
+  transition: .1s all ease-in;
+  padding: 1rem;
+}
+
+#btt:hover {
+  color: white;
+  text-decoration: none;
+}
+
+main {
+  font-size: medium;
+  margin: 5rem;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#galleries_menu {
+  background-color: rgb(30, 30, 30);
+  width: 18rem;
+  height: 10rem;
+  padding-top: 1.5rem;
+  padding-right: 1rem;
+  margin-top: 2rem;
+  margin-right: 0;
+  float: right;
+  right: 0;
+  border: 1px lightgray solid;
+  border-right: none;
+  border-top-left-radius: 3rem;
+  border-bottom-left-radius: 3rem;
+  
+}
+
+#galleries_menu li {
+  padding: 0.5rem;
+  padding-left: 0;
+  color: lightgray;
+  font-size: large;
+  list-style-type: none;
+}
+
+#galleries_menu a {
+  text-decoration: none;
+  color: lightgray;
+}
+
+#galleries_menu a:hover {
+  text-decoration: none;
+  color: white;
+}
+
+.intro {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  max-width: 85%;
+  margin-bottom: 5rem;
+}
+
+.intro img {
+  max-width: 48%;
+  filter: brightness(85%);
+  border-radius: 50rem;
+}
+
+.intro div {
+  margin-top: 3rem;
+  max-width: 45%;
+}
+
+.biography {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  margin-bottom: 4rem;
+}
+
+.biography p {
+  max-width: 48%;
+  margin: 1rem;
+  text-align: justify;
+}
+
+.bio_pics {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  height: 30rem;
+  margin-bottom: 4rem;
+}
+
+.bio_pics img {
+  max-height: 100%;
+  border-radius: 3rem;
+  filter: brightness(95%);
+}
+
+.address {
+  font-style: italic;
+  float: left;
+  margin: 3rem;
+}
+
+#pdf_link {
+  font-style: normal;
+  text-decoration: none;
+  font-family: sans-serif;
+  color: lightgray;
+}
+
+#pdf_link img {
+  width: 3rem;
+  margin-top: 0;
+  border-radius: 0;
+}
+
+#pdf_link:hover{
+  color: white;
+}
+
+@media only screen and (max-width: 900px) {
+
+  .header {
+    background-image: linear-gradient(to top, black, rgb(50, 50, 50));
+    color: lightgray;
+  }
+  .nav {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+  }
+  .nav img {
+    display: none;
+  }
+  .nav a {
+    color: lightgray;
+    text-decoration: none;
+    font-size: medium;
+    margin: 0;
+    padding: 0.5rem;
+  }
+  .nav a:hover, a:active {
+    color: white;
+    text-decoration: none;
+  }
+  .nav input {
+    height: 3rem;
+    margin-left: 3rem;
+    padding-right: 1rem;
+    background-color: rgb(255, 255, 255);
+    color: black;
+  }
+  .footer {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    position: static;
+    bottom: 0;
+    padding: 3%;
+    width: 100%;
+    background-image: linear-gradient(to top, black, rgb(50, 50, 50));
+    color: lightgray;
+  }
+  #copy {
+    padding-right: 0%;
+  }
+  main {
+    font-size: medium;
+    margin: 2rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  #galleries_menu {
+    display: none;
+  }
+  .intro {
+    display: flex;
+    flex-flow: column wrap;
+    max-width: 100%;
+    margin-bottom: 2rem;
+  }
+  .intro img {
+    filter: brightness(85%);
+    border-radius: 50rem;
+    max-width: 100%;
+  }
+  .intro div {
+    margin-top: 3rem;
+    max-width: 100%;
+  }
+  .intro h1, .intro h3 {
+    font-size: 20px;
+  }
+  .biography {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-between;
+    margin-bottom: 0rem;
+  }
+  .biography p {
+    max-width: 100%;
+    margin-bottom: 1rem;
+    text-align: left;
+    font-size: small;
+  }
+  .bio_pics {
+    display: none
+  }
+  .address {
+    font-style: italic;
+    font-size: small;
+    margin: 1rem;
+  }
+}

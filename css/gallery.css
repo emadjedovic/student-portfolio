@@ -1,0 +1,42 @@
+main h1 {
+    font-size: 5rem;
+    font-weight: 600;
+    padding-left: 12%;
+    margin-bottom: 8rem;
+    text-align: center;
+}
+
+.gallery_flex {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: space-evenly;
+    max-width: 100%;
+}
+
+.gallery {
+    margin: 1rem;
+    max-width: 30%;
+  }
+  
+.gallery:hover {
+    border: 2px solid lightgray;
+    background-color: lightgray;
+    color: black;
+  }
+  
+  .gallery img, video {
+    width: 100%;
+    border-radius: 4rem;
+  }
+
+  .gallery img:hover, video:hover {
+    width: 100%;
+    border-radius: 0;
+  }
+  
+  .desc {
+    padding: 15px;
+    text-align: center;
+  }

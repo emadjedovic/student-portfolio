@@ -1,0 +1,94 @@
+main h1 {
+    font-size: 5rem;
+    font-weight: 600;
+    margin: 4rem;
+    text-align: center;
+}
+.forma {
+    background-image: linear-gradient(to right, rgb(30, 30, 30), rgb(49, 49, 49));
+    color: rgb(0, 0, 0);
+    padding: 3rem;
+    max-width: 40%;
+    font-size: small;
+    margin: auto;
+    border: 1px lightgray solid;
+  }
+.forma input[type=text], textarea {
+    width: 100%;
+    padding: 0.5rem;
+    padding-left: 2rem;
+    border-radius: 2rem;
+    box-sizing: border-box;
+    margin-top: 0.2rem;
+    margin-bottom: 2rem;
+    resize: vertical;
+  }
+  .forma input[type=submit] {
+    background-image: linear-gradient( white, gray);
+    color: black;
+    padding: 1rem 3rem;
+    border-radius: 3rem;
+    margin-top: 2rem;
+    margin-left: 40%;
+    cursor: pointer;
+    font-family: sans-serif;
+    font-weight: 700;
+  }
+  .forma input[type=submit]:hover {
+    text-decoration: underline;
+  }
+  label {
+    color: lightgray;
+  }
+
+  @media only screen and (max-width: 900px){
+    main h1 {
+      font-size: 35px;
+      font-weight: 600;
+      margin: 1rem;
+      margin-bottom: 4rem;
+      text-align: center;
+  }
+
+  .forma {
+    background-image: none;
+    background-color: black;
+    color: rgb(0, 0, 0);
+    padding: 0;
+    max-width: 30rem;
+    font-size: small;
+    margin: auto;
+    border: none;
+    }
+  
+  .forma input[type=text], textarea {
+      width: 100%;
+      padding: 0.5rem;
+      padding-left: 2rem;
+      border-radius: 2rem;
+      box-sizing: border-box;
+      margin-top: 0.2rem;
+      margin-bottom: 2rem;
+      resize: vertical;
+    }
+    
+    .forma input[type=submit] {
+      background-image: linear-gradient( white, gray);
+      color: black;
+      padding: 1rem 3rem;
+      border-radius: 3rem;
+      margin-top: 2rem;
+      margin-left: 30%;
+      cursor: pointer;
+      font-family: sans-serif;
+      font-weight: 700;
+    }
+    
+    .forma input[type=submit]:hover {
+      text-decoration: underline;
+    }
+  
+    label {
+      color: lightgray;
+    }
+  }

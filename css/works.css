@@ -1,0 +1,182 @@
+main h1 {
+  font-size: 5rem;
+  font-weight: 600;
+  margin-left: 25%;
+  margin-bottom: 6rem;
+}
+main h2 {
+  font-size: 3rem;
+  font-weight: 600;
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+  text-align: left;
+}
+main h3 {
+  font-size: 2rem;
+  font-weight: 600;
+  text-align: left;
+  text-indent: 2rem;
+}
+main h4 {
+  font-style: italic;
+  margin-bottom: 2rem;
+}
+.card {
+  display: flex;
+  flex-flow: column wrap;
+  margin-bottom: 5rem;
+  max-width: 70%;
+  padding-left: 3rem;
+  padding-right: 4rem;
+  padding-bottom: 2rem;
+  background-color: rgb(40, 40, 40);
+  border-radius: 1rem;
+}
+.card section {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.card section div {
+  max-width: 50%;
+}
+.card img {
+  max-width: 45%;
+  border-radius: 1rem;
+  margin-top: 1rem;
+}
+.info {
+  font-size: small;
+  font-style: italic;
+  line-height: 2.5rem;
+  margin-bottom: 2rem;
+}
+#pdf_link {
+  font-style: normal;
+  text-decoration: none;
+  font-family: sans-serif;
+}
+#pdf_link img {
+  width: 3rem;
+  margin-top: 0;
+}
+#pdf_link:hover{
+  color: white;
+}
+.video {
+  margin: 3rem;
+  margin-left: 0;
+  width: 100%;
+  border-radius: 3rem;
+}
+.card a {
+  color: lightgray;
+}
+.card a:hover {
+  color: white;
+}
+.card a:visited {
+  color: rgb(210, 157, 158);
+}
+ol li {
+  font-weight: bold;
+}
+#works_menu {
+  background-color: rgb(30, 30, 30);
+  width: 30rem;
+  height: 20rem;
+  padding-top: 2rem;
+  padding-right: 1rem;
+  margin-top: 3rem;
+  margin-right: 0;
+  float: right;
+  right: 0;
+  position: fixed;
+  border: 1px lightgray solid;
+  border-right: none;
+  border-top-left-radius: 3rem;
+  border-bottom-left-radius: 3rem;
+}
+#works_menu li {
+  padding: 0.5rem;
+  color: lightgray;
+  font-size: medium;
+}
+#works_menu a {
+  text-decoration: none;
+  color: lightgray;
+}
+#works_menu a:hover {
+  text-decoration: none;
+  color: white;
+}
+
+@media only screen and (max-width: 900px){
+  main h1 {
+    font-size: 35px;
+    font-weight: 600;
+    margin: 1rem;
+    margin-bottom: 4rem;
+    text-align: center;
+  }
+  
+  main h2 {
+    font-size: 2rem;
+    font-weight: 600;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    text-align: left;
+  }
+  
+  main h3 {
+    font-size: 1rem;
+    font-weight: 600;
+    text-align: left;
+    text-indent: 2rem;
+  }
+  
+  main h4 {
+    font-style: italic;
+    margin-bottom: 2rem;
+  }
+  
+  .card {
+    display: flex;
+    flex-flow: column wrap;
+    margin-bottom: 5rem;
+    max-width: 100%;
+    padding: 2rem;
+    font-size: small;
+    background-color: rgb(40, 40, 40);
+    border-radius: 0rem;
+  }
+  
+  .card section {
+    display: flex;
+    flex-flow: column wrap;
+  }
+  .card section div {
+    max-width: 100%;
+  }
+  .card img {
+    display: none;
+  }
+  
+  .info {
+    font-size: small;
+    font-style: italic;
+    line-height: 2.5rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+  }
+
+  .card audio {
+    max-width: 100%;
+  }
+
+  
+  #works_menu {
+    display: none;
+  }
+}

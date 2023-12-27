@@ -1,0 +1,125 @@
+main h1 {
+    font-size: 5rem;
+    font-weight: 600;
+    margin: 4rem;
+    text-align: center;
+}
+h4 {
+  margin: 3rem;
+}
+#about_me_menu {
+  background-color: rgb(30, 30, 30);
+  width: 20rem;
+  height: 15rem;
+  padding-top: 1.5rem;
+  padding-right: 1rem;
+  margin-top: 2rem;
+  margin-right: 0;
+  float: right;
+  right: 0;
+  border: 1px lightgray solid;
+  border-right: none;
+  border-top-left-radius: 3rem;
+  border-bottom-left-radius: 3rem;
+  position: fixed;
+  
+}
+#about_me_menu li {
+  padding: 0.5rem;
+  padding-left: 0;
+  color: lightgray;
+  font-size: large;
+  list-style-type: none;
+}
+#about_me_menu a {
+  text-decoration: none;
+  color: lightgray;
+}
+#about_me_menu a:hover {
+  text-decoration: none;
+  color: white;
+}
+#education {
+    display: flex;
+    flex-flow: column wrap;
+    margin: 2rem;
+    padding: 2rem;
+    max-width: 75%;
+}
+#skills {
+    display: flex;
+    flex-flow: column wrap;
+    margin: 2rem;
+    padding: 2rem;
+    max-width: 75%;
+}
+#experience {
+    display: flex;
+    flex-flow: column wrap;
+    margin: 2rem;
+    padding: 2rem;
+    max-width: 75%;
+}
+
+@media only screen and (max-width: 900px){
+  main h1 {
+      font-size: 35px;
+      font-weight: 600;
+      margin: 1rem;
+      margin-bottom: 4rem;
+      text-align: center;
+  }
+  #about_me_menu {
+    display: none;
+  }
+  main {
+    margin: 1.5rem;
+    margin-right: 1rem;
+  }
+
+#education {
+    display: flex;
+    flex-flow: column wrap;
+    margin: 2rem;
+    padding: 0rem;
+    max-width: 100%;
+}
+#education h3 {
+  font-size: large;
+}
+#education h4 {
+  font-size: small;
+  margin: 0;
+  line-height: 2rem;
+}
+#skills {
+    display: flex;
+    flex-flow: column wrap;
+    margin: 2rem;
+    padding: 0rem;
+    max-width: 100%;
+}
+#skills h3 {
+  font-size: large;
+}
+#skills h4 {
+  font-size: small;
+  margin: 0;
+  line-height: 2rem;
+}
+#experience {
+    display: flex;
+    flex-flow: column wrap;
+    margin: 2rem;
+    padding: 0rem;
+    max-width: 100%;
+}
+#experience h3 {
+  font-size: large;
+}
+#experience h4 {
+  font-size: small;
+  margin: 0;
+  line-height: 2rem;
+}
+}

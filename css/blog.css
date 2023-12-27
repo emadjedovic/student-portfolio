@@ -1,0 +1,193 @@
+main h1 {
+    font-size: 5rem;
+  font-weight: 600;
+  margin-left: 25%;
+  margin-bottom: 6rem;
+}
+main h2 {
+    font-size: 3rem;
+  font-weight: 600;
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+  text-align: left;
+}
+main h3 {
+    font-size: 2rem;
+  font-weight: 600;
+  text-align: left;
+  text-indent: 2rem;
+}
+.card {
+    display: flex;
+    flex-flow: column wrap;
+    margin-bottom: 5rem;
+    max-width: 70%;
+    padding-left: 3rem;
+    padding-right: 6rem;
+    padding-bottom: 2rem;
+    background-color: rgb(40, 40, 40);
+    border-radius: 1rem;
+}
+.article_subtitles a {
+    text-decoration: none;
+    font-style: italic;
+}
+.image {
+    margin: 3rem;
+    margin-left: 0;
+    width: 100%;
+    border-radius: 3rem;
+}
+.video {
+    margin: 3rem;
+    margin-left: 0;
+    width: 100%;
+    border-radius: 3rem;
+}
+.card a {
+    color: lightgray;
+}
+.card a:hover {
+color: white;
+}
+.card a:visited {
+color: rgb(210, 157, 158);
+}
+ol li {
+    font-weight: bold;
+}
+.a2_tabela {
+    display: block;
+    text-align: center;
+}
+table {
+    border: 2px solid white;
+    border-width: 1px 0 0 1px;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    width: 100%;
+}
+td, th {
+    border: 1.5px solid;
+    background-color: rgb(234, 234, 234);
+    color: black;
+}
+#articles_menu {
+    background-color: rgb(30, 30, 30);
+    width: 30rem;
+    height: 25rem;
+    padding-top: 2rem;
+    padding-right: 1rem;
+    margin-top: 3rem;
+    margin-right: 0;
+    float: right;
+    right: 0;
+    position: fixed;
+    border: 1px lightgray solid;
+    border-right: none;
+    border-top-left-radius: 3rem;
+    border-bottom-left-radius: 3rem;
+  }
+#articles_menu li {
+    padding: 0.5rem;
+    color: lightgray;
+    font-size: medium;
+}
+#articles_menu a {
+    text-decoration: none;
+    color: lightgray;
+}
+#articles_menu a:hover {
+    text-decoration: none;
+    color: white;
+}
+
+@media only screen and (max-width: 900px){
+    main h1 {
+        font-size: 35px;
+    font-weight: 600;
+    margin: 1rem;
+    
+    margin-bottom: 4rem;
+    text-align: center;
+    }
+    
+    main h2 {
+        font-size: 2rem;
+      font-weight: 600;
+      margin-top: 3rem;
+      margin-bottom: 2rem;
+      text-align: center;
+    }
+    
+    main h3 {
+        font-size: 2rem;
+      font-weight: 600;
+      text-align: center;
+    }
+
+    main h4 {
+        font-size: 15px;
+        line-height: 2rem;
+        text-align: center;
+    }
+    
+    .card {
+        display: flex;
+        flex-flow: column wrap;
+        align-items: center;
+        text-align: center;
+        margin-bottom: 2rem;
+        max-width: 100%;
+        padding-left: 2rem;
+        padding-right: 2rem;
+        padding-bottom: 2rem;
+        background-color: rgb(40, 40, 40);
+        border-radius: 1rem;
+    }
+
+    .card p {
+        font-size: 15px;
+    }
+    
+    .article_subtitles a {
+        text-decoration: none;
+        font-style: italic;
+        font-size: small;
+    }
+    
+    .image {
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+        width: 100%;
+        border-radius: 3rem;
+      margin: auto;
+    }
+    
+    .video {
+        margin: auto;
+        width: 100%;
+        border-radius: 3rem;
+      margin-bottom: 3rem;
+    }
+    
+    #articles_menu {
+        display: none;
+    }
+
+    ol {
+        list-style-type: none;
+        padding-left: 0;
+    }
+
+    ol li {
+        margin-bottom: 1rem;
+    }
+
+    .card figure {
+        margin-bottom: 3rem;
+        font-size: small;
+        margin: 1rem;
+    }
+
+}
