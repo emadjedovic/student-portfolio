@@ -118,6 +118,56 @@ ol li {
   text-align: center;
 }
 
+@media only screen and (max-width: 1170px){
+  
+  .card {
+    display: flex;
+    flex-flow: column wrap;
+    margin-bottom: 5rem;
+    padding: 2rem;
+    background-color: rgb(40, 40, 40);
+    border-radius: 0rem;
+  }
+  
+  .card section {
+    display: flex;
+    flex-flow: column wrap;
+  }
+  .card section div {
+    max-width: 100%;
+  }
+  .card img {
+    display: none;
+  }
+  #pdf_link img {
+    display: inline;
+    width: 3rem;
+    margin-top: 1.5rem;
+  }
+  
+  .info {
+    font-size: small;
+    font-style: italic;
+    line-height: 2.5rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+  }
+
+  #works_menu {
+    background-color: rgb(25, 25, 25);
+    width: 25rem;
+    height: 20rem;
+    padding-top: 1rem;
+    padding-right: 1rem;
+  }
+  #works_menu li {
+    padding: 0.5rem;
+    color: lightgray;
+    font-size: medium;
+  }
+
+}
+
 @media only screen and (max-width: 900px){
   main h1 {
     font-size: 35px;

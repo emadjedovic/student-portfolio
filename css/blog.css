@@ -102,6 +102,23 @@ td, th {
     color: white;
 }
 
+@media only screen and (max-width: 1170px){
+
+    #articles_menu {
+        background-color: rgb(25, 25, 25);
+        width: 25rem;
+        height: 29rem;
+        padding-top: 1rem;
+        padding-right: 1rem;
+      }
+    #articles_menu li {
+        padding: 0.5rem;
+        color: lightgray;
+        font-size: medium;
+    }
+
+}
+
 @media only screen and (max-width: 900px){
     main h1 {
         font-size: 35px;

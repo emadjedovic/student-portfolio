@@ -78,10 +78,6 @@ h4 {
   #about_me_menu {
     display: none;
   }
-  main {
-    margin: 1.5rem;
-    margin-right: 1rem;
-  }
 
 #education {
     display: flex;
