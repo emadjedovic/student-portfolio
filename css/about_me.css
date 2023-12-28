@@ -128,4 +128,19 @@ h4 {
   margin: 0;
   line-height: 2rem;
 }
+#volunteering {
+  display: flex;
+  flex-flow: column wrap;
+  margin: 2rem;
+  padding: 0rem;
+  max-width: 100%;
+}
+#volunteering h3 {
+font-size: large;
+}
+#volunteering h4 {
+font-size: small;
+margin: 0;
+line-height: 2rem;
+}
 }

@@ -91,6 +91,7 @@ main {
   display: flex;
   flex-flow: row wrap;
   justify-content: space-between;
+  align-items: center;
   margin-bottom: 5rem;
 }
 
@@ -160,12 +161,123 @@ main {
   color: white;
 }
 
+@media only screen and (max-width: 1170px){
+  #copy {
+    padding-right: 10%;
+  }
+  nav input {
+    display: none;
+  }
+
+  .header {
+    background-image: linear-gradient(to top, black, rgb(50, 50, 50));
+    color: lightgray;
+    padding: 4%;
+    padding-bottom: 0%;
+    text-align: center;
+  }
+
+  main {
+    font-size: medium;
+    margin: 5rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+
+  .biography {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    margin-bottom: 4rem;
+  }
+  .biography p {
+    max-width: 100%;
+    margin: 1rem;
+    text-align: justify;
+  }
+  .bio_pics {
+    display: none;
+  }
+  #pdf_link img {
+    width: 3rem;
+    margin: 1rem;
+  }
+
+
+}
+
 @media only screen and (max-width: 900px) {
 
   .header {
     background-image: linear-gradient(to top, black, rgb(50, 50, 50));
     color: lightgray;
   }
+  .nav img {
+    display: none;
+  }
+  .nav a {
+    color: lightgray;
+    text-decoration: none;
+    font-size: medium;
+    margin: 0;
+  }
+  .footer {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    position: static;
+    bottom: 0;
+    padding: 3%;
+    width: 100%;
+    background-image: linear-gradient(to top, black, rgb(50, 50, 50));
+    color: lightgray;
+  }
+  #copy {
+    padding-right: 0%;
+  }
+  .intro {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    max-width: 100%;
+    margin-bottom: 2rem;
+  }
+  .intro div {
+    margin-top: 3rem;
+    max-width: 80%;
+    text-align: center;
+  }
+  .intro h1, .intro h3 {
+    font-size: 20px;
+  }
+  .biography {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-between;
+    margin-bottom: 0rem;
+  }
+  .biography p {
+    max-width: 100%;
+    margin-bottom: 1rem;
+    text-align: left;
+    font-size: small;
+  }
+  .bio_pics {
+    display: none
+  }
+  .address {
+    font-style: italic;
+    font-size: small;
+    margin: 1rem;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+
+  .header {
+    background-image: linear-gradient(to top, black, rgb(50, 50, 50));
+    color: lightgray;
+  }
+  
   .nav {
     display: flex;
     flex-flow: column wrap;
@@ -211,9 +323,6 @@ main {
     margin: 2rem;
     font-family: Georgia, 'Times New Roman', Times, serif;
   }
-  #galleries_menu {
-    display: none;
-  }
   .intro {
     display: flex;
     flex-flow: column wrap;
@@ -221,9 +330,7 @@ main {
     margin-bottom: 2rem;
   }
   .intro img {
-    filter: brightness(85%);
-    border-radius: 50rem;
-    max-width: 100%;
+    display: none;
   }
   .intro div {
     margin-top: 3rem;
